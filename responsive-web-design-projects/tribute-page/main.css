@@ -1,0 +1,20 @@
+html{
+  font-size: 23px;
+}
+#image{
+  max-weight: 100%;
+  height:auto;
+}
+p{
+  font-family:calibri;
+  color: blue;
+  background-color:pink;
+}
+h1{
+  background-color:gray;
+  opacity: 50%;
+  Color: red;
+}
+#footer{
+  color: gray;
+}
