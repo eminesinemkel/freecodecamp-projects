@@ -1,20 +1,47 @@
-html{
-  font-size: 23px;
-}
 #image{
-  max-weight: 100%;
-  height:auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin:auto;
 }
-p{
-  font-family:calibri;
-  color: blue;
-  background-color:pink;
+.bilgi{
+  font-family: Papyrus,'Times New Roman',serif, Arial;
+  color: grey;
+  opacity: 90%;
+  text-align: center;
+  font-size: 20px;
+}
+#tribute-link{
+  color:grey;
+  font-size: 15px;
+}
+a{
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  float: center;
+  border-bottom: 1px solid gray;
+  color: rgb(100 100 100);
 }
 h1{
-  background-color:gray;
-  opacity: 50%;
-  Color: red;
+  margin:auto;
+  text-align:center;
+  font-family: Papyrus,'Times New Roman',serif, Arial;
+}
+.acıklama{
+  color: grey;
+  background-color: none;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+p{
+  font-family: Papyrus,'Times New Roman',serif, Arial;
+  color: grey;
 }
 #footer{
   color: gray;
+  font-size:13px;
+  text-align:center;
 }
