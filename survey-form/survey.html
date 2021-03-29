@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="survey.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <h1 id="title">Neden Harry Potter okuyorsunuz?</h1>
+        <p id="description">Harry Potter yaşatma ve dayanışma topluluğu tarafıdan yapılmıştır.</p>
+        <form id="survey-form" class="thick-black-border ">
+            <div>
+                <label id="name-label" for="name"><b>İsim</b></label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required />
+            </div>
+            <div>
+                <label id="email-label" for="email"><b>Email</b></label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter your Email"
+                    required />
+            </div>
+            <div>
+                <label id="number-label" for="number"><b>Yaş</b></label>
+                <br>
+                <input type="number" name="number" id="number" min="13" max="103" placeholder="Enter your Number" required />
+            </div>
+            <div>
+                <p>Şu an ne işle uğraşıyorsunuz?</p>
+                <select id="dropdown" name="role" required>
+                    <option value="Öğrenci">Öğrenci</option>
+                    <option value="Çalışıyor">Çalışıyor</option>
+                    <option value="Çalışmıyor">Çalışmıyor</option>
+                    <option value="İşsiz">İşsiz</option>
+                </select>
+            </div>
+            <div>
+                <p>Kitaplarda en sevdiğiniz karakter kimdir?</p>
+                <label>
+                    <input name="user-recommend" value="potter" type="radio" class="input-radio" checked />Harry
+                    Potter</label>
+                <label>
+                    <input name="user-recommend" value="snape" type="radio" class="input-radio" checked />Severus
+                    Snape</label>
+                <label>
+                    <input name="user-recommend" value="malfoy" type="radio" class="input-radio" checked />Draco
+                    Malfoy</label>
+            </div>
+            <div>
+                <p>Serideki favori yaratıklarınız hangileri?</p>
+                <label>
+                    <input name="şeç" value="seç" type="checkbox" />Şahgaga</label>
+                <label>
+                    <input name="şeç" value="seç" type="checkbox" />Dobby</label>
+                <label>
+                    <input name="şeç" value="seç" type="checkbox" />At Adam</label>
+                <label>
+                    <input name="şeç" value="seç" type="checkbox" />Aragog</label>
+            </div>
+            <div>
+                <textarea id="ek-label" for="ek">Eklemek istedğiniz bir şey var mı?</textarea>
+            </div>
+            <div class="form-box">
+                <button id="submit">Gönder</button>
+            </div>
+
+        </form>
+</body>
